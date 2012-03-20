@@ -22,8 +22,7 @@ width:100%;
 background:  url(https://storetemplate.googlecode.com/svn/trunk/img/bodybg.gif) repeat-y scroll center;
 margin:0;
 padding:0;
-   min-height: 1000px;
-  height:auto !important;
+
 }
 
 #wrapper {
