@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 .outertable{
-  background: #f4f4f4 url(https://storetemplate.googlecode.com/svn/trunk/img/bodybgwrapper.gif) scroll center;
+  background: #f4f4f4 url(https://storetemplate.googlecode.com/svn/trunk/img/bodybg.gif) repeat-y scroll center;
   font-family: Verdana,sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -16,15 +16,6 @@ body {
   color: #555555;
 
 }
-.outerWrapper
-{
-width:100%;
-background:  url(https://storetemplate.googlecode.com/svn/trunk/img/bodybg.gif) repeat-y scroll center;
-margin:0;
-padding:0;
-
-}
-
 #wrapper {
   margin: 2px auto;
   padding: 0;
