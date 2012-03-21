@@ -16,6 +16,18 @@ body {
   color: #555555;
 
 }
+.leftNavTable{
+
+font-family: Verdana,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 12px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  line-height: 17px;
+  color: #555555;
+}
 #wrapper {
   margin: 2px auto;
   padding: 0;
