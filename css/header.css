@@ -1,42 +1,42 @@
 
 .header1{
 width:20px;
-  background: url(../images/SearchHeader/header1.jpg) no-repeat;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header1.jpg) no-repeat;
   height:250px;
 }
 
 .header1Hover{
   width:20px;
-  background: url(../images/SearchHeader/header1Hover.jpg) no-repeat;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header1Hover.jpg) no-repeat;
   height:250px;
 }
 
 .header2{
   min-width:1px;
-  background: url(../images/SearchHeader/header2.jpg) repeat-x scroll center;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header2.jpg) repeat-x scroll center;
   height:250px;
 }
 
 .header2Hover{
   min-width:1px;
-  background: url(../images/SearchHeader/header2Hover.jpg) repeat-x scroll center;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header2Hover.jpg) repeat-x scroll center;
   height:250px;
 }
 
 .header3{
   width:880px;
-  background: url(../images/SearchHeader/header3.jpg) no-repeat;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header3.jpg) no-repeat;
   height:250px;
 }
 
 .header3Hover{
   width:880px;
-  background: url(../images/SearchHeader/header3Hover.jpg) no-repeat;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header3Hover.jpg) no-repeat;
   height:250px;
 }
 
 .lnkBar{
-  background: url(../images/SearchHeader/linkbg.jpg) repeat-x scroll center;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg.jpg) repeat-x scroll center;
   height:80px;
 }
 
