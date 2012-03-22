@@ -1,7 +1,8 @@
+/*
 .link1{
   width:10px;
   background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg1.png) no-repeat;
-  height:60px;
+  height:40px;
 }
 
 .link2{
@@ -15,6 +16,7 @@
   background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg3.png) no-repeat;
   height:60px;
 }
+*/
 .header1{
   width:20px;
   background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header1.jpg) no-repeat;
@@ -54,6 +56,7 @@
 #hright {
   float: right;
   width: 270px;
+  margin-bottom:8px;
 }
 ul {
   margin: 0;
@@ -63,7 +66,7 @@ ul {
   list-style-position: outside;
 }
 #menu {
-  margin-top:20px;
+  margin-top:10px;
   padding: 0;
   width: 500px;
   float: left;
