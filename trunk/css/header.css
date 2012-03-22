@@ -1,6 +1,22 @@
+.link1{
+  width:10px;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg1.png) no-repeat;
+  height:80px;
+}
 
+.link2{
+  min-width:2px;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg2.jpg) repeat-x scroll center;
+  height:80px;
+}
+
+.link3{
+  width:10px;
+  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg3.png) no-repeat;
+  height:80px;
+}
 .header1{
-width:20px;
+  width:20px;
   background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header1.jpg) no-repeat;
   height:250px;
 }
@@ -34,12 +50,12 @@ width:20px;
   background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header3Hover.jpg) no-repeat;
   height:250px;
 }
-
+/*
 .lnkBar{
   background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg.jpg) repeat-x scroll center;
   height:80px;
 }
-
+*/
 #hright {
   margin-top:20px;
   float: right;
@@ -53,7 +69,7 @@ ul {
   list-style-position: outside;
 }
 #menu {
-  margin-top:20px;
+  margin-top:30px;
   padding: 0;
   width: 500px;
   float: left;
@@ -89,30 +105,6 @@ ul {
   color: #555555;
 }
 
-.search_form{
-margin-top:0px;
-padding:0;
-height:25px;
-}
-
-.search_form img{
-padding-left:2px;
-}
-input.search_input{
-width:150px;
-height:21px;
-float:left;
-margin:0;
-border:1px solid #dbdbdb;
-border-bottom-color:#ffffff;
-border-right-color:#ffffff;
-}
-.search_text{
-padding-top:2px;
-float:left;
-width:auto;
-color:#999999;
-}
 
 /*Search Form*/
 .searchform {
@@ -124,6 +116,8 @@ padding: 3px 5px;
 -webkit-border-radius: 2em;
 -moz-border-radius: 2em;
 border-radius: 2em;
+margin-bottom:20px;
+
 
 -webkit-box-shadow: 0 1px 0px rgba(0,0,0,.1);
 -moz-box-shadow: 0 1px 0px rgba(0,0,0,.1);
@@ -156,7 +150,8 @@ box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
 .searchform .searchbutton {
 color: #fff;
 border: solid 1px #494949;
-font-size: 11px;
+font-size: 12px;
+font-weight:bold;
 height: 27px;
 width: 27px;
 text-shadow: 0 1px 1px rgba(0,0,0,.6);
@@ -170,4 +165,8 @@ background: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#4
 background: -moz-linear-gradient(top, #9e9e9e, #454545);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545'); /* ie7 */
 -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545'); /* ie8 */
+}
+
+.searchbutton:hover {
+cursor:pointer;
 }
