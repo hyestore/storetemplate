@@ -261,7 +261,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 
 .button_news{
   float:right;  
-  background: transparent url(../images/btnNews.png) no-repeat;
+  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/btnNews.png) no-repeat;
   height:25px;
   width:60px;
   padding-top:4px;
