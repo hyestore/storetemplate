@@ -87,7 +87,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endC
 -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie8 */
 }
 .searchform input {
-font: normal 12px/100% Arial, Helvetica, sans-serif;
+font: normal 12px/100% Verdana,Arial, Helvetica;
 }
 .searchform .searchfield {
 background: #fff;
