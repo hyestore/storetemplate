@@ -277,7 +277,6 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 }
 .button_news:hover, .link_news:hover{
   color: #fff;
-  font-size: 12px;
   font-weight:bold;
   cursor:pointer;
   text-decoration:none;
