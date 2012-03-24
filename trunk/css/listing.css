@@ -266,21 +266,19 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 
 .button_news{
   float:right;  
-  color: #fff;
   background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/btnNews.png) no-repeat;
   height:25px;
   width:60px;
   padding-top:4px;
   
 }
-
-.link_news{
-  color: #fff;
+.button_news a{
+  color:#fff;
   text-decoration:none;
   margin-left:5px;
-
 }
-.button_news:hover, .link_news:hover{
+
+.button_news a:hover{
   color: #fff;
   font-weight:bold;
   cursor:pointer;
