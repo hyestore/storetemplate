@@ -112,17 +112,16 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
   
 }
 
-.link_news{
-  color: #fff;
-  font-size: 12px;
+.button_news a{
+  color:#fff;
   text-decoration:none;
-  margin-left:20px;
-
+  margin-left:6px;
 }
-.button_news:hover, .link_news:hover{
+
+.button_news a:hover{
   color: #fff;
-  font-size: 12px;
   font-weight:bold;
   cursor:pointer;
   text-decoration:none;
 }
+
