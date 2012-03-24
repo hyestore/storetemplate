@@ -275,7 +275,6 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 
 .link_news{
   color: #fff;
-  
   text-decoration:none;
   margin-left:5px;
 
@@ -573,6 +572,13 @@ padding: 0px;
    background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/descriptionbottom.jpg) 	no-repeat;
 }
 
+.scrollGallery{
+text-align:center; 
+margin-right:0;
+margin-top:20px;
+float:right;
+padding:0;
+}
 /*footer*/
 #footer {
   margin:10px 0 0;
