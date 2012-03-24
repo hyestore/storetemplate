@@ -1,22 +1,4 @@
-/*
-.link1{
-  width:10px;
-  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg1.png) no-repeat;
-  height:40px;
-}
 
-.link2{
-  min-width:2px;
-  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg2.jpg) repeat-x scroll center;
-  height:60px;
-}
-
-.link3{
-  width:10px;
-  background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/linkbg3.png) no-repeat;
-  height:60px;
-}
-*/
 .header1{
   width:20px;
   background: url(https://storetemplate.googlecode.com/svn/trunk/img/SearchHeader/header1.jpg) no-repeat;
@@ -162,4 +144,5 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endC
 
 .searchbutton:hover {
 cursor:pointer;
+font-weight:bold;
 }
