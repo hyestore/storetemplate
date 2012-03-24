@@ -338,7 +338,7 @@ border: 5px solid #dfdfdf;
 }
 .line {
 font-size: 15px;
-color:#504b4b;
+color:#3f3f3f;
 font-weight:bold;
 border-bottom-width: 1px;
 border-bottom-style: solid;
@@ -353,7 +353,7 @@ margin-left:15px;
 margin-right:15px;
 line-height: 25px;
 font-weight: normal;
-color:#504b4b;
+color:#3f3f3f;
 text-align: justify;
 }
 /*Tab Box*/
