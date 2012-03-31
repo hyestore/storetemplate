@@ -273,7 +273,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
   padding-top:4px;
   
 }
-.button_news a{
+.button_news a:link{
   color:#fff;
   text-decoration:none;
   margin-left:6px;
