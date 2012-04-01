@@ -200,6 +200,7 @@ ul.left_menu {
   list-style-type: none;
   list-style-image: none;
   list-style-position: outside;
+  text-align:left;
 }
 ul.left_menu li {
   margin: 0px;
@@ -217,6 +218,7 @@ ul.left_menu li.odd a {
   padding-left: 30px;
   display: block;
   color: #504b4b;
+  
 }
 ul.left_menu li.even a {
   border-bottom: 1px solid #ffffff;
