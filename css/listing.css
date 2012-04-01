@@ -166,6 +166,19 @@ font-weight:bold;
   background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/homepichover.jpg) no-repeat scroll 0% 50%;
 }
 
+headerpicHover{
+margin: 5px 0 10px;
+  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/homepichover.jpg) no-repeat scroll 0% 50%;
+  width: 900px;
+  height: 250px;
+}
+
+.headerpic{
+	margin: 5px 0 10px;
+  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/homepic.jpg) no-repeat scroll 0% 50%;
+  width: 900px;
+  height: 250px;
+}
 #bottomcontent {
   width: 100%;
   min-height: 900px;
