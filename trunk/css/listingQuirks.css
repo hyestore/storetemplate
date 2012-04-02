@@ -633,15 +633,13 @@ padding: 0px;
 
 .scrollGallery{
 text-align:center; 
-margin-right:0;
-margin-top:20px;
-float:right;
-padding:0;
+margin-top:50px;
+margin-left:10px;
+
 }
 /*footer*/
 #footer {
-  margin:10px 0 0;
-  padding: 20px 0;
+  padding-top: 40px;  
   background: #ffffff none repeat scroll 0% 50%;
   clear: both;
   text-align: center;
