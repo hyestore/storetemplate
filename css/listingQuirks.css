@@ -172,7 +172,7 @@ font-weight:bold;
 
 #menu {
   margin-top:20px;
-  min-width: 500px;
+  width: 500px;
   float: left;
   text-align: left;
 }
@@ -633,13 +633,15 @@ padding: 0px;
 
 .scrollGallery{
 text-align:center; 
-margin-top:50px;
-margin-left:10px;
-
+margin-right:0;
+margin-top:20px;
+float:right;
+padding:0;
 }
 /*footer*/
 #footer {
-  padding-top: 40px;  
+  margin:10px 0 0;
+  padding: 20px 0;
   background: #ffffff none repeat scroll 0% 50%;
   clear: both;
   text-align: center;
