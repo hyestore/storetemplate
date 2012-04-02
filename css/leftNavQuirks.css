@@ -1,0 +1,127 @@
+
+/*Top Elements*/
+.leftNavTable{
+  font-family: Verdana,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 12px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  line-height: 17px;
+  color: #555555;
+}
+
+
+
+
+
+.title_box {
+  margin: 5px 0 0;
+  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/menu_title_bg.png) no-repeat scroll center;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  color: #ffffff;
+  width: 196px;
+  font-size: 13px;
+  font-weight: bold;
+}
+ul.left_menu {
+  border-style: none solid none;
+  border-width: 0px 1px 0px;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+  margin: 0px;
+  padding: 0px;
+  width: 196px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+ul.left_menu li {
+  margin: 0px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+ul.left_menu li.odd a {
+  border-bottom: 1px solid #ffffff;
+  background: #f1f3f2 none repeat scroll 0% 50%;
+  text-decoration: none;
+  width: auto;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 15px;
+  display: block;
+  color: #3f3f3f;
+}
+ul.left_menu li.even a {
+  border-bottom: 1px solid #ffffff;
+  background: #f5f5f5 none repeat scroll 0% 50%;
+  line-height: 25px;
+  text-decoration: none;
+  width: auto;
+  padding-left: 15px;
+  height: 25px;
+  display: block;
+  color: #3f3f3f;
+}
+ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
+  background: #6f6f6f;
+  width: auto;
+  height: 25px;
+  display: block;
+  text-decoration: none;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight:bold;
+}
+.left_menu_bottom {
+  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/menu_border_bot.png) 	no-repeat;
+  width:196px;
+  height: 10px;
+  margin:0px;
+  padding:0px;
+
+}
+
+.border_box {
+  border-style: none solid none;
+  border-width: 0px 1px 0px;
+  border-left:  1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+  background: #f5f5f5;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left:15px;
+  padding-bottom:10px;
+  padding-right:10px;
+  width: 196px;
+  text-align: left;
+  min-height: 160px;
+  height:auto !important;
+}
+
+.button_news{
+  float:right;  
+  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/btnNews.png) no-repeat;
+  height:25px;
+  width:60px;
+  padding-top:4px;
+  
+}
+
+.button_news a:link{
+  color:#fff;
+  text-decoration:none;
+  margin-left:6px;
+}
+
+.button_news a:hover{
+  color: #fff;
+  font-weight:bold;
+  cursor:pointer;
+  text-decoration:none;
+}
+
