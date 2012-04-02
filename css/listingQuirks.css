@@ -172,7 +172,7 @@ font-weight:bold;
 
 #menu {
   margin-top:20px;
-  width: 500px;
+  min-width: 500px;
   float: left;
   text-align: left;
 }
