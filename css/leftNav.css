@@ -45,6 +45,14 @@ ul.left_menu li {
   list-style-image: none;
   list-style-position: outside;
 }
+
+ul.left_menu li.divider{
+border-bottom: 1px solid #ffffff;
+background: #c9c9c9 none repeat scroll 0% 50%;
+width: auto;
+height: 2px;
+}
+
 ul.left_menu li.odd a {
   border-bottom: 1px solid #ffffff;
   background: #f1f3f2 none repeat scroll 0% 50%;
