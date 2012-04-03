@@ -223,7 +223,7 @@ ul.left_menu li.even a {
   display: block;
   color: #3f3f3f;
 }
-ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
+ul.left_menu li.even a:hover,ul.left_menu li.even a:visited, ul.left_menu li.odd a:hover, ul.left_menu li.odd a:visited {
   background: #6f6f6f;
   width: auto;
   height: 25px;
@@ -268,7 +268,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
   
 }
 
-.button_news a:link{
+.button_news a:link,.button_news a:visited{
   color:#fff;
   text-decoration:none;
   margin-left:6px;
