@@ -112,11 +112,12 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
   
 }
 
-.button_news a:link{
+.button_news a:link, .button_news a:visited{
   color:#fff;
   text-decoration:none;
   margin-left:6px;
 }
+
 
 .button_news a:hover{
   color: #fff;
