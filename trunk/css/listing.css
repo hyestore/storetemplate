@@ -404,6 +404,8 @@ color:#3f3f3f;;
 text-align: justify;
 }
 .subline span{font-weight:bold; margin-right:5px;}
+.tabline span{font-weight:bold; }
+
 td.kdwhdTABSBG {
 border-right-width: 1px;
 border-left-width: 1px;
