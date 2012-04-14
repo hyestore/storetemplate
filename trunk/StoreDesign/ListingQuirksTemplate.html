@@ -3,13 +3,81 @@
 <head>
   	
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <!--<link type="text/css" media="screen" href="inc/listingQuirks.css" rel="stylesheet"/>-->
+  <!--<link type="text/css" media="screen" href="inc/listing.css" rel="stylesheet"/>-->
 </head>
 <body>
 
 	<table width="100%"  cellpadding="0" cellspacing="0">
 		<tr><td align="center">
+		<script language="javascript">
+		<!--
+		function ToggleHoverHeaderImage(isChange)
+		{
+ 		 		var divHomePic = document.getElementById("divHeaderpic");
+					
+				if(isChange)
+				{
+					
+					if(divHomePic.className != ''){
+						//alert('className is not empty');
+						divHomePic.className = divHomePic.className + 'Hover';
+					}
+					else
+					{
+						
+						divHomePic.className = 'headerpicHover';
+						//alert('mouse over className is ' + divHomePic.className);
+					}
+				}
+      				
+				else
+				{
+				   //alert('mouse out className is ' + divHomePic.className);
+					divHomePic.className = divHomePic.className.substring(0,9);
+				}
+    		
+			
+		 	
+		 }
+		 function getInternetExplorerVersion()
+		 {
+		 	var rv = -1; // Return value assumes failure.
+			if (navigator.appName == 'Microsoft Internet Explorer')
+			{
+				var ua = navigator.userAgent;
+				var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+				if (re.exec(ua) != null)
+					rv = parseFloat( RegExp.$1 );
+  			}
+  			return rv;
+		 }
+		 // Function definition, Disable right mouse click
+		 function clickIE4()
+		 {
+		    if (event.button==2)return false;
+		 }
+		 function clickNS4(e)
+		 {
+		    if (document.layers||document.getElementById&&!document.all)
+			{
+			   if (e.which==2||e.which==3)return false;
+			}
+		 }
+		 // Detect browser then load .css
+		 var browser=navigator.appName; 
+		 var ver = getInternetExplorerVersion();
+		 
+		 if (ver != -1 && ver <= 8.0) 
+		 { 
+		 	document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://storetemplate.googlecode.com/svn/trunk/css/listingQuirks.css\">"); 
+			
+		 } 
+		 else
+		 	document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://storetemplate.googlecode.com/svn/trunk/css/listing.css\">");  
+		 // Disable right mouse click
 		
+		-->
+		</script>
 		
 		<div class="outertable">
 
@@ -61,13 +129,13 @@
 					<br/>
 					
 					<div class="title_box">By Location</div>
-					<ul class="left_menu">
-					<li class="odd"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Bedroom-/_i.html?_fsub=3161810014&_sid=1099707054&_trksid=p4634.c0.m322">Bedroom</a></li>
-					<li class="even"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Kids-Room-/_i.html?_fsub=3161811014&_sid=1099707054&_trksid=p4634.c0.m322">Kids Room</a></li>
-					<li class="odd"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Living-Spaces-/_i.html?_fsub=3161812014&_sid=1099707054&_trksid=p4634.c0.m322">Living Spaces</a></li>
-					<li class="even"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Nurseries-/_i.html?_fsub=3161813014&_sid=1099707054&_trksid=p4634.c0.m322">Nurseries</a></li>
-					</ul>
-					<div class="left_menu_bottom"></div>    
+      					 <ul class="left_menu">
+	   					 <li class="even"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Bedroom-/_i.html?_fsub=3161810014&_sid=1099707054&_trksid=p4634.c0.m322">Bedroom</a></li>
+	   					 <li class="odd"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Kids-Room-/_i.html?_fsub=3161811014&_sid=1099707054&_trksid=p4634.c0.m322">Kids Room</a></li>
+	   					 <li class="even"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Living-Spaces-/_i.html?_fsub=3161812014&_sid=1099707054&_trksid=p4634.c0.m322">Living Spaces</a></li>
+	   					 <li class="odd"><a href="http://stores.ebay.com.au/HY-Decor-eStore/Nurseries-/_i.html?_fsub=3161813014&_sid=1099707054&_trksid=p4634.c0.m322">Nurseries</a></li>
+	   					</ul>
+     				<div class="left_menu_bottom"></div>    
      				<br/>
 					
 					<div class="title_box">Newsletter</div>
@@ -92,27 +160,25 @@
 						
 						<table align="center" width="692" cellspacing="0" cellpadding="0">
 							<tbody>
-								<tr><td align="center" width="690" class="tit"><strong>Animal Numbers Decal</strong></td></tr>
+								<tr><td align="center" width="690" class="tit"><strong>Abstract Dot Pattern Decals</strong></td></tr>
 								<tr><td>
 										<table align="center" width="550px" cellspacing="7" cellpadding="7" border="0">
-										<tbody>										
-										<tr><td align="center" class="gray-border" ><img width="550px" height="550px" id="swap" name="swap" src="http://i1063.photobucket.com/albums/t520/hyestore/Listing/01-0096/2.jpg"></td></tr>
-										<tr><td align="center" class="gray-border" ><img width="550px" id="swap" name="swap" src="http://i1063.photobucket.com/albums/t520/hyestore/Listing/01-0096/size.jpg"></td></tr>
-										<tr><td align="center" class="gray-border" ><img width="550px" id="swap" name="swap" src="http://i1063.photobucket.com/albums/t520/hyestore/Listing/01-0096/real-1.jpg"></td></tr>
-									
-										
+										<tbody>
+										<tr><td align="center" class="gray-border" ><img width="550px" height="550px" id="swap" name="swap" src="http://i1063.photobucket.com/albums/t520/hyestore/Listing/01-0060/1.jpg"></td></tr>
+										<tr><td align="center" class="gray-border" ><img width="550px" height="550px" id="swap" name="swap" src="http://i1063.photobucket.com/albums/t520/hyestore/Listing/01-0060/size1.jpg"></td></tr>
+										<tr><td align="center" class="gray-border" ><img width="550px" height="550px" id="swap" name="swap" src="http://i1063.photobucket.com/albums/t520/hyestore/Listing/01-0060/size2.jpg"></td></tr>
+										<tr><td align="center" class="gray-border" ><img width="550px" height="550px" id="swap" name="swap" src="http://i1063.photobucket.com/albums/t520/hyestore/Listing/01-0060/real.jpg"></td></tr>
 										</tbody></table></td></tr>
 								<tr><td valign="bottom" height="35" class="line">Description</td></tr>
 								<tr><td align="left" valign="top" >
-										<div class="subline">
-											
+										<div class="subline">										
 											<ul><li><span>Condition:</span>brand new</li>
-											<li><span>Received Package:</span><strong>1 Sheet Wall Sticker</strong> as typsetting size + <span>Outer-Mailing tube/Liner tube & Stachels</span> + Applied transferring tape if needed</li>
+											<li><span>Received Package:</span><span>1 Sheet Wall Sticker</span> as typsetting size + <span>Outer-Mailing tube/Liner tube & Stachels</span> + Applied transferring tape if needed</li>
 											<li><span>Colour:</span>mix</li>
-											<li><span>Size:</span>Measurement: W:100+ cm , Typesetting: W:60 * H:45cm,see picture above. </li> 
-											<li><span>Material:</span>durable and quality vinyl, nontoxic and removable without residue remaining on the surface.</li>											
-											<li><span>Feature:</span>a contemporary way to complement your home or business interior design. Self-adhesive, water resistant and removable, Suitable for most flat smooth surfaces without leaving residue,however a pre-test is highly recommended. </li>
-											<li><span>Product Code:</span>01-0096</li>
+											<li><span>Size:</span>Measurement: H:110+ cm , W: 65+ cm, Typesetting: W:50 * H:70 cm </li>
+											<li><span>Material:</span>Quality Vinyl, nontoxic and removable without residue remaining on  the surface.</li>											
+											<li><span>Feature:</span>a contemporary way to complement your home or business interior design. Self-adhesive, water resistant and removable, suitable for most flat smooth surfaces without leaving residue,however a pre-test is highly recommended. </li>
+											<li><span>Product Code:</span>01-0060</li>
 											<li><strong>*</strong> Please note: due to monitor settings, colours may look slightly different.</li>
 											</ul>
 										</div></td></tr>
@@ -147,14 +213,14 @@
 												<p align="justify">
 													<div class="tabtitle">Mailing</div>
 													<div class="tabline">
-														Postage combine is offered, <strong>only $2 extra</strong> for postage of the second item in Australia wide, and $3.5 extra for internaltional shipping.
+														Postage combine is offered, <span>only $2 extra</span> for postage of the second item in Australia wide, $3.5 extra for second item of international shipping. 
 													</div>
 													<div class="tabline">
-														<strong>Shipping from Sydney, Australia</strong> using Australia Standard Post, $3 extra needed for domestic registered post.
+														<span>Shipping from Sydney, Australia</span> using Australia Standard Post, $3 extra needed for domestic registered post.
 													</div>
 													
 													<div class="tabline">
-														Dispatch <strong>within 24 hours</strong> after payment is cleared, no weekends and public holiday.
+														<span>Dispatch within 24 hours</span> after payment is cleared, no weekends and public holiday.
 													</div>
 													<div class="tabline">
 														Domestic shipping takes around 1-5 working days, international shipping usually takes 6-21 working days.
@@ -178,7 +244,7 @@
 														Please do not hesitate to contact us via ebay message for a particular product, or through hyestore@gmail.com for any general enquiries. Have a look <a title="Frequently Asked Questions" href="http://stores.ebay.com.au/hydecorestore/pages/faq/_i.html">FAQ</a>, answers might be there.
 													</div>
 													<div class="tabline">
-														<strong>5 star feedbacks are really appreciated</strong>, negative feedback will not solve any problem, so please contact us first before you leave any negative feedback.
+														<span>5 star feedbacks are really appreciated</span>, negative feedback will not solve any problem, so please contact us first before you leave any negative feedback.
 													</div>
 													<div class="tabline">
 													    Thank you for shopping with us.
@@ -196,10 +262,10 @@
 												<p class="justify">
 													<div class="tabtitle">Return Policy</div>
 														<div class="tabline">
-															We are more than happy to exchange or <strong>fully refund</strong> for faulty products within 14 days after purchasing, plus we will pay for return shipping cost!
+															We are more than happy to exchange or <span>fully refund</span> for faulty products within 14 days after purchasing, plus <span class="hignlight">return shipping cost will be paid by us</span>!
 														</div>
 														<div class="tabline">
-															We are able to <strong>refund unhappy sticker</strong> as well in 7 days after purchasing, if (i) the sticker was kept in orginal condition  when returned, and (ii) return shipping cost needs to be paid by buyer.
+															We are able to <span>refund unhappy sticker</span> as well in 7 days after purchasing, if (i) the sticker was kept in orginal condition  when returned, and (ii) return shipping cost needs to be paid by buyer.
 														</div>
 																										
 												</p>
@@ -239,58 +305,17 @@
 </div>
 
 </div>
-<script type="text/javascript">		
-		function ToggleHoverHeaderImage(isChange)
-		{
-			var divHomePic = document.getElementById("divHeaderpic");
-					
-				if(isChange)
-				{
-					
-					if(divHomePic.className != ''){
-						//alert('className is not empty');
-						divHomePic.className = divHomePic.className + 'Hover';
-					}
-					else
-					{
-						
-						divHomePic.className = 'headerpicHover';
-						//alert('mouse over className is ' + divHomePic.className);
-					}
-				}
-      				
-				else
-				{
-				   //alert('mouse out className is ' + divHomePic.className);
-					divHomePic.className = divHomePic.className.substring(0,9);
-				}
-    		
-			
-		 	
-		 }
-		 function getInternetExplorerVersion()
-		 {
-		 	var rv = -1; // Return value assumes failure.
-			if (navigator.appName == 'Microsoft Internet Explorer')
-			{
-				var ua = navigator.userAgent;
-				var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
-				if (re.exec(ua) != null)
-					rv = parseFloat( RegExp.$1 );
-  			}
-  			return rv;
-		 }
-		 var browser=navigator.appName; 
-		 var ver = getInternetExplorerVersion();
-		 
-		 if (ver != -1 && ver <= 8.0) 
-		 { 
-		 	document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://storetemplate.googlecode.com/svn/trunk/css/listingQuirks.css\">"); 
-			
-		 } 
-		 else
-		 	document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"https://storetemplate.googlecode.com/svn/trunk/css/listing.css\">");  
-		 
+<script language="javascript">
+<!--
+ if (document.layers)
+ {
+   document.captureEvents(Event.MOUSEDOWN);
+   document.onmousedown=clickNS4;
+ } else if (document.all&&!document.getElementById){
+   document.onmousedown=clickIE4;
+ }
+   document.oncontextmenu=new Function("return false");
+-->
 </script>
 </td>
 </tr>
