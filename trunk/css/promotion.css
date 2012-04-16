@@ -1,0 +1,20 @@
+.promo
+{
+ color: #cb2d2d;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.originalprice
+{
+ color: #000000;
+ font-size: 15px;
+ text-decoration:line-through;
+}
+
+.saveprice
+{
+ color: #cb2d2d;
+ font-size: 20px;
+ font-weight: bold;
+}
