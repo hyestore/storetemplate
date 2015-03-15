@@ -29,7 +29,7 @@ img {
 }
 /*Top Elements*/
 .outertable{
-  background: #f4f4f4 url(https://storetemplate.googlecode.com/svn/trunk/img/bodybg.gif) repeat-y scroll center;
+  background: #f4f4f4 url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/bodybg.gif) repeat-y scroll center;
   font-family: Verdana,sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -52,7 +52,7 @@ img {
 
 #header {
   margin: 0;
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/header.jpg) no-repeat scroll 0% 50%;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/header.jpg) no-repeat scroll 0% 50%;
   clear: both;
   width: 900px;
   height: 80px;
@@ -155,7 +155,7 @@ font-weight:bold;
 }
 #homepic {
   margin: 5px 0 10px;
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/homepic.jpg) no-repeat scroll 0% 50%;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/homepic.jpg) no-repeat scroll 0% 50%;
   width: 900px;
   height: 250px;
 }
@@ -163,19 +163,19 @@ font-weight:bold;
   color: #ffffff;
 }
 #homepic:hover {
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/homepichover.jpg) no-repeat scroll 0% 50%;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/homepichover.jpg) no-repeat scroll 0% 50%;
 }
 
 .headerpicHover{
 margin: 5px 0 10px;
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/homepichover.jpg) no-repeat scroll 0% 50%;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/homepichover.jpg) no-repeat scroll 0% 50%;
   width: 900px;
   height: 250px;
 }
 
 .headerpic{
 	margin: 5px 0 10px;
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/homepic.jpg) no-repeat scroll 0% 50%;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/homepic.jpg) no-repeat scroll 0% 50%;
   width: 900px;
   height: 250px;
 }
@@ -193,7 +193,7 @@ height:900px;
 }
 .title_box {
   margin: 5px 0 0;
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/menu_title_bg.png) no-repeat scroll center;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/menu_title_bg.png) no-repeat scroll center;
   text-align: center;
   line-height: 30px;
   height: 30px;
@@ -255,7 +255,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
   font-weight:bold;
 }
 .left_menu_bottom {
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/menu_border_bot.png) 	no-repeat;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/menu_border_bot.png) 	no-repeat;
   width:196px;
   height: 10px;
   margin:0px;
@@ -282,7 +282,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 
 .button_news{
   float:right;  
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/btnNews.png) no-repeat;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/btnNews.png) no-repeat;
   height:25px;
   width:60px;
   padding-top:4px;
@@ -307,7 +307,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 }
 
 #bottomcontentbtm {
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/b_contentbtm.jpg) no-repeat scroll 0% 50%;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/b_contentbtm.jpg) no-repeat scroll 0% 50%;
   width: 900px;
   height: 10px;
 }
@@ -316,7 +316,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 .bottom_right_top{
   width:694px;
   height:10px;
-  background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/b_contenttop.jpg) 	no-repeat;
+  background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/b_contenttop.jpg) 	no-repeat;
 
 
 }
@@ -333,7 +333,7 @@ ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover {
 .bottom_right_bot{
    width:694px;
    height:10px;
-   background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/b_contentbtm.jpg) no-repeat;
+   background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/b_contentbtm.jpg) no-repeat;
 }
 
 
@@ -375,7 +375,7 @@ text-align: justify;
 .tit {
 font-size: 16px;
 color: #efefef;
-background-image: url(https://storetemplate.googlecode.com/svn/trunk/img/ListingTitle.jpg);
+background-image: url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/ListingTitle.jpg);
 background-repeat: repeat-y;
 background-position: center center;
 height: 40px;
@@ -510,7 +510,7 @@ font-size: 15px;
 font-weight:bold;
 color: #8b8b8b;
 line-height: 31px;
-background-image: url(https://storetemplate.googlecode.com/svn/trunk/img/tabgray.jpg);
+background-image: url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/tabgray.jpg);
 background-repeat: no-repeat;
 background-position: center bottom;
 width: 152px;
@@ -527,7 +527,7 @@ font-size: 15px;
 font-weight:bold;
 color: #555555;
 line-height: 31px;
-background-image: url(https://storetemplate.googlecode.com/svn/trunk/img/tabgray.jpg);
+background-image: url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/tabgray.jpg);
 background-repeat: no-repeat;
 background-position: center bottom;
 width: 152px;
@@ -543,7 +543,7 @@ font-size: 15px;
 font-weight:bold;
 color: #efefef;
 line-height: 31px;
-background-image: url(https://storetemplate.googlecode.com/svn/trunk/img/tabgray.jpg);
+background-image: url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/tabgray.jpg);
 background-repeat: no-repeat;
 background-position: center bottom;
 width: 152px;
@@ -559,7 +559,7 @@ text-decoration: none;
 font-size: 15px;
 font-weight:bold;
 color: #efefef;
-background-image: url(https://storetemplate.googlecode.com/svn/trunk/img/tabred.jpg);
+background-image: url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/tabred.jpg);
 background-repeat: no-repeat;
 background-position: center bottom;
 width: 152px;
@@ -581,12 +581,12 @@ padding: 0px;
 .description_top{
    width:660px;
    height:10px;
-   background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/descriptiontop.jpg) 	no-repeat;
+   background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/descriptiontop.jpg) 	no-repeat;
 }
 .description_bot{
    width:660px;
    height:10px;
-   background: transparent url(https://storetemplate.googlecode.com/svn/trunk/img/descriptionbottom.jpg) 	no-repeat;
+   background: transparent url(https://raw.githubusercontent.com/hyestore/storetemplate/master/img/descriptionbottom.jpg) 	no-repeat;
 }
 /*
 .scrollGallery{
@@ -603,6 +603,12 @@ text-align:center;
 margin-top:50px;
 margin-left:10px;
 
+}
+.promo
+{
+ color: #cb2d2d;
+ font-size: 20px;
+ font-weight: bold;
 }
 /*footer*/
 #footer {
